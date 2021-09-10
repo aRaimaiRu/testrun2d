@@ -34,6 +34,9 @@ public class Player : MonoBehaviour
     void run(){
       transform.position += new Vector3(1,0,0)*sppedX*Time.deltaTime;
     }
+    public void jump(){
+      rb2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
+    }
 
 
 }
