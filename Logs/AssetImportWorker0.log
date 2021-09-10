@@ -1,0 +1,1033 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1165; Version 2009; 64bit' Language: 'th' Physical Memory: 12244 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/s6102041620020/NinjaRun2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51912
+Successfully changed project path to: C:/Users/s6102041620020/NinjaRun2D
+C:/Users/s6102041620020/NinjaRun2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 110.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/s6102041620020/NinjaRun2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005138 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 85.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.971 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.025486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 93.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.518 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2513.
+Total: 4.616200 ms (FindLiveObjects: 0.577300 ms CreateObjectMapping: 0.161400 ms MarkObjects: 3.495300 ms  DeleteObjects: 0.379200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(695745aaabf9fbd42b02e8cc4e18a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(695745aaabf9fbd42b02e8cc4e18a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647f0aa2b9baf1c04e33ce16b0c2cf07') in 0.019469 seconds 
+  Import took 0.025800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.186514 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.030333 seconds 
+  Import took 0.040603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.192082 seconds.
+  path: Assets/Scenes/gameplay.unity
+  artifactKey: Guid(66cd5e8e49de083448e086151e60a59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/gameplay.unity using Guid(66cd5e8e49de083448e086151e60a59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11a0314d89fd215cf7ed2808ef237b6') in 0.014289 seconds 
+  Import took 0.020198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.796942 seconds.
+  path: Assets/Scenes/ninjaadventurenew
+  artifactKey: Guid(390c0d66fc7d4f7418886723e3ac5e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ninjaadventurenew using Guid(390c0d66fc7d4f7418886723e3ac5e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f87737061def391018038e9482092fe') in 0.015309 seconds 
+  Import took 0.021204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.197237 seconds.
+  path: Assets/ninjaadventurenew/png
+  artifactKey: Guid(a0bd565a62ee5eb4c8b2b7fa05f4942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png using Guid(a0bd565a62ee5eb4c8b2b7fa05f4942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df3be05733e8376bfe0b9b5a30b6ff0') in 0.013479 seconds 
+  Import took 0.020411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064732 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__000.png
+  artifactKey: Guid(92403b7dc47ee624d8c7f2c6ebf7e3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__000.png using Guid(92403b7dc47ee624d8c7f2c6ebf7e3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2027be4575aca996c8018b8965d754b7') in 0.246611 seconds 
+  Import took 0.252633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_008.png
+  artifactKey: Guid(f41f339ef21d4b043a9aa712980c39e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_008.png using Guid(f41f339ef21d4b043a9aa712980c39e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13edd6cc4a3a840f6a48cf8ccf32978') in 0.033841 seconds 
+  Import took 0.039797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_007.png
+  artifactKey: Guid(85bc661100d118d48a01d46ce3cf44b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_007.png using Guid(85bc661100d118d48a01d46ce3cf44b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2d8c98797d03a88054c7ed45b4ca2c') in 0.029180 seconds 
+  Import took 0.034327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__003.png
+  artifactKey: Guid(197dd22f6fe25aa4888649f6f8f0626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__003.png using Guid(197dd22f6fe25aa4888649f6f8f0626d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1f31e35d373dc8b7f8e749ab53c952') in 0.028563 seconds 
+  Import took 0.033358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__005.png
+  artifactKey: Guid(a27f6935164fdd345be592b6d5876c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__005.png using Guid(a27f6935164fdd345be592b6d5876c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e78afbaee8913ecc1a4a76dcb38023') in 0.029541 seconds 
+  Import took 0.035241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__004.png
+  artifactKey: Guid(6c6e60d05b7133045a9024eacf24c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__004.png using Guid(6c6e60d05b7133045a9024eacf24c853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1b3653b08b3f3ab44ea02794d2af3c') in 0.028859 seconds 
+  Import took 0.035093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__000.png
+  artifactKey: Guid(4bc5f43d2fb77da47bd59b11b8a04443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__000.png using Guid(4bc5f43d2fb77da47bd59b11b8a04443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649940925897fc35e6287371b5d7a731') in 0.028471 seconds 
+  Import took 0.033982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__009.png
+  artifactKey: Guid(80d8fc6db5d14b54fa26e85d35da5c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__009.png using Guid(80d8fc6db5d14b54fa26e85d35da5c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e08d02fd0cb96764f60cc1dc701515a') in 0.028124 seconds 
+  Import took 0.033650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_009.png
+  artifactKey: Guid(744c1b00283b4594e8461bfb0d8084f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_009.png using Guid(744c1b00283b4594e8461bfb0d8084f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eab01ef4145bd98699c8b757d15d9c4') in 0.026647 seconds 
+  Import took 0.032429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__007.png
+  artifactKey: Guid(86ddf0025717ae74195731a579c0da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__007.png using Guid(86ddf0025717ae74195731a579c0da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f3ef2fcb492c8ece0e0a6cdfc23bde') in 0.029933 seconds 
+  Import took 0.035370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__008.png
+  artifactKey: Guid(0210cfc49f17a3442a5f77b196c1bf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__008.png using Guid(0210cfc49f17a3442a5f77b196c1bf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e103e1656a21edcd2bf344ae7ee5d5d') in 0.029242 seconds 
+  Import took 0.034588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_009.png
+  artifactKey: Guid(b111d0917ddc1134c89d2fb4bf49d85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_009.png using Guid(b111d0917ddc1134c89d2fb4bf49d85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0290624d7c17e8248a4545033fec03de') in 0.025967 seconds 
+  Import took 0.031063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__006.png
+  artifactKey: Guid(78c2a58ae2d0e634da25f3f9878dcecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__006.png using Guid(78c2a58ae2d0e634da25f3f9878dcecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebbf49ff4f7451829fac1de4b879a13') in 0.026679 seconds 
+  Import took 0.032186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__009.png
+  artifactKey: Guid(07fc24a28fb9ded4e9153e57960ef913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__009.png using Guid(07fc24a28fb9ded4e9153e57960ef913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6156923f7bc81d5a6f6e895f7def2252') in 0.027013 seconds 
+  Import took 0.032159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__001.png
+  artifactKey: Guid(e01e76707b9da724ab3528c50f54abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__001.png using Guid(e01e76707b9da724ab3528c50f54abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ecdaa88be8d47f1aeec4257c7cffa9') in 0.026282 seconds 
+  Import took 0.031798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_007.png
+  artifactKey: Guid(6323107ea776c174fa050450671d22d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_007.png using Guid(6323107ea776c174fa050450671d22d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4a858b8efadc5b072f723f210ecba0') in 0.027101 seconds 
+  Import took 0.032593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__009.png
+  artifactKey: Guid(62db7f08b74bece4ab5899d3f0be8ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__009.png using Guid(62db7f08b74bece4ab5899d3f0be8ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426288162632486bf268b2b7ed96d4fd') in 0.026663 seconds 
+  Import took 0.031534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__005.png
+  artifactKey: Guid(f91c45ecef52b0f42b63fc976556bcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__005.png using Guid(f91c45ecef52b0f42b63fc976556bcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f06c7b95f36687b380aecaef98c7f8a') in 0.025526 seconds 
+  Import took 0.031103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__003.png
+  artifactKey: Guid(76d7574e3c0bdbc4fabdd768c695b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__003.png using Guid(76d7574e3c0bdbc4fabdd768c695b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6161064f5eeb2a91f673ffd1e02dbe') in 0.026557 seconds 
+  Import took 0.031543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_008.png
+  artifactKey: Guid(c6eb74e846930de4ab4e5cc4b77b96b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_008.png using Guid(c6eb74e846930de4ab4e5cc4b77b96b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606e245233bdf4dfeb20dc57925214ff') in 0.029164 seconds 
+  Import took 0.034875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__001.png
+  artifactKey: Guid(976da3faa1413da4ca5060aadd392514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__001.png using Guid(976da3faa1413da4ca5060aadd392514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7534b541f62a6772e162143939deac') in 0.023438 seconds 
+  Import took 0.028519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_000.png
+  artifactKey: Guid(699a90054a44f8b4a95e97ff1f8abfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_000.png using Guid(699a90054a44f8b4a95e97ff1f8abfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1541ceadfe3576fc4c7543811b453c9') in 0.023636 seconds 
+  Import took 0.029245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__008.png
+  artifactKey: Guid(3f1fdf05959a20b45803f0b3653aa694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__008.png using Guid(3f1fdf05959a20b45803f0b3653aa694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc81dd757862e18da048a0a26ed6ac23') in 0.027563 seconds 
+  Import took 0.033004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__002.png
+  artifactKey: Guid(b59f48f9498ea8b469b215d57fcfe231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__002.png using Guid(b59f48f9498ea8b469b215d57fcfe231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27086a3d1655393ff74e04ba58b83081') in 0.028157 seconds 
+  Import took 0.034559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__003.png
+  artifactKey: Guid(79453d3f67c7f9442ae132dc52ce5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__003.png using Guid(79453d3f67c7f9442ae132dc52ce5fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ccb43b98561cde03d04d601651c863') in 0.022734 seconds 
+  Import took 0.028807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__001.png
+  artifactKey: Guid(0083d68191303704f86820b21a3bb7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__001.png using Guid(0083d68191303704f86820b21a3bb7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799c632d24be3a9742d849e25dcd8df2') in 0.023853 seconds 
+  Import took 0.028934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__005.png
+  artifactKey: Guid(088b2a2810eec53419d6028aa788001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__005.png using Guid(088b2a2810eec53419d6028aa788001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f31ed1de825133d9657be76bb97f4b') in 0.026142 seconds 
+  Import took 0.031936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__004.png
+  artifactKey: Guid(64c39b2afc8268445846f6f15795b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__004.png using Guid(64c39b2afc8268445846f6f15795b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c2092ac484f9c7b2ae2afad1cf53f8') in 0.028367 seconds 
+  Import took 0.033654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__000.png
+  artifactKey: Guid(0c8fd6682fa94d046a0c47878d6300c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__000.png using Guid(0c8fd6682fa94d046a0c47878d6300c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa56d5dd21578925e7e7266fd1eafa4') in 0.027738 seconds 
+  Import took 0.033241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_005.png
+  artifactKey: Guid(b3ef0a94d9ec80a41a2994961210c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_005.png using Guid(b3ef0a94d9ec80a41a2994961210c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99507696910b4b89d56e992c7416c69a') in 0.024226 seconds 
+  Import took 0.029148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__000.png
+  artifactKey: Guid(0e80b3aec7530294d800b802ece31fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__000.png using Guid(0e80b3aec7530294d800b802ece31fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0547dedd371839c37e8a977f6f5f00f') in 0.021722 seconds 
+  Import took 0.027123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_002.png
+  artifactKey: Guid(29187bbf1a234444f8bb2c2a6827d417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_002.png using Guid(29187bbf1a234444f8bb2c2a6827d417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6b566f5a96600099f87bce1316cdaf') in 0.022832 seconds 
+  Import took 0.027868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__004.png
+  artifactKey: Guid(dad30620ea3c56a4c9ac2f5182ada14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__004.png using Guid(dad30620ea3c56a4c9ac2f5182ada14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560c5971fbf2334dc8623ae39b280241') in 0.027031 seconds 
+  Import took 0.033430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_003.png
+  artifactKey: Guid(1a237057d2fd48a468e39d06f586a14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_003.png using Guid(1a237057d2fd48a468e39d06f586a14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9b0cd7d1ec446c0295a6e16714e648') in 0.023953 seconds 
+  Import took 0.029239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__004.png
+  artifactKey: Guid(d06dacd904d80884fbd58e5136113976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__004.png using Guid(d06dacd904d80884fbd58e5136113976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800f0e740380f3f5b3a82a254825df26') in 0.022284 seconds 
+  Import took 0.027498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__004.png
+  artifactKey: Guid(e8a07ce0e3e2a60449979c40199a2c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__004.png using Guid(e8a07ce0e3e2a60449979c40199a2c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dd19304f70b0e14e7380a859f4674e') in 0.022582 seconds 
+  Import took 0.027689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__003.png
+  artifactKey: Guid(c176643680e354f4a926a0ae2d76d21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__003.png using Guid(c176643680e354f4a926a0ae2d76d21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a79b49af51e8ee048918f60ecad181') in 0.023787 seconds 
+  Import took 0.028723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__007.png
+  artifactKey: Guid(36c734230f9501c4090cd872d1bc8446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__007.png using Guid(36c734230f9501c4090cd872d1bc8446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8261c0b57c7f2383394c3c570d82ad46') in 0.026935 seconds 
+  Import took 0.033552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__000.png
+  artifactKey: Guid(7ba04b2189f14474dbeec91107eb9415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__000.png using Guid(7ba04b2189f14474dbeec91107eb9415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f579ec141e209bf7b62a8421244a64d7') in 0.024636 seconds 
+  Import took 0.030595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_001.png
+  artifactKey: Guid(66570189a5a410647865d970b42be5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_001.png using Guid(66570189a5a410647865d970b42be5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e3114d8aabe137b316249ca9897aa4') in 0.028562 seconds 
+  Import took 0.035247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__001.png
+  artifactKey: Guid(ef4a4f14be468cb43b45099e4a9790e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__001.png using Guid(ef4a4f14be468cb43b45099e4a9790e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2234409907b497e237accd286b2bc751') in 0.027351 seconds 
+  Import took 0.034589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__007.png
+  artifactKey: Guid(b123186981e4b8647b16e3e65c31d9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__007.png using Guid(b123186981e4b8647b16e3e65c31d9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a828baf3ce7a68fbac4f4c612a0e2') in 0.025106 seconds 
+  Import took 0.030673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__002.png
+  artifactKey: Guid(310cb9e2208eaf84f9a2d8590ad09ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__002.png using Guid(310cb9e2208eaf84f9a2d8590ad09ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4741e1c62f47f99ed5ce9d9bf5a7ecb3') in 0.025057 seconds 
+  Import took 0.030639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__003.png
+  artifactKey: Guid(53854a1c7f0d2ec4299dc4d6e5a4e5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__003.png using Guid(53854a1c7f0d2ec4299dc4d6e5a4e5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1dadbb4005b8a29aa9150edc3c1521') in 0.025529 seconds 
+  Import took 0.030772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_005.png
+  artifactKey: Guid(0cd9bf46c149fe1479b9f921ef582dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_005.png using Guid(0cd9bf46c149fe1479b9f921ef582dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c890ab3653505c8549c8c5dd93ed7171') in 0.024945 seconds 
+  Import took 0.030332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__006.png
+  artifactKey: Guid(7e76b0fc0c550cd4ea103e5825e33291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__006.png using Guid(7e76b0fc0c550cd4ea103e5825e33291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce850f391818978d8f4b7b209159fe46') in 0.023557 seconds 
+  Import took 0.029438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__009.png
+  artifactKey: Guid(06d934da0398e9248b49f50aa4db363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__009.png using Guid(06d934da0398e9248b49f50aa4db363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaf714cd6c1ec8873aabed6c7e30661') in 0.025443 seconds 
+  Import took 0.031272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__006.png
+  artifactKey: Guid(8c10f1dc9b27990438ddf9df1a5aabd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__006.png using Guid(8c10f1dc9b27990438ddf9df1a5aabd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d3ef69395407b178191efcc10ccba3') in 0.026227 seconds 
+  Import took 0.032031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__000.png
+  artifactKey: Guid(30f7964d63d95a6468af8b0ea92e7925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__000.png using Guid(30f7964d63d95a6468af8b0ea92e7925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a0f08bb7b762f3a3940dea3a0f45e5') in 0.026931 seconds 
+  Import took 0.032515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__008.png
+  artifactKey: Guid(f3046a8ba56989740abd284488c727df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__008.png using Guid(f3046a8ba56989740abd284488c727df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc52c46f63fcdade05ee22ac634bcdd6') in 0.024307 seconds 
+  Import took 0.029709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_006.png
+  artifactKey: Guid(94d9f13ab68ae94409c1a58a5faa685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_006.png using Guid(94d9f13ab68ae94409c1a58a5faa685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cd865088ddefc3b1b2c1c3b1c33bf3') in 0.038334 seconds 
+  Import took 0.043918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_004.png
+  artifactKey: Guid(255f38d269e928f49b5659af9adb6090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_004.png using Guid(255f38d269e928f49b5659af9adb6090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6bd9cd19a3ff0a1c538f3eaefaaf82') in 0.026460 seconds 
+  Import took 0.031785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_001.png
+  artifactKey: Guid(c5b28a179f4fc1a4dbc03f8cfb81495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_001.png using Guid(c5b28a179f4fc1a4dbc03f8cfb81495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7612fca32ad19dbe01d85a4ad70bf9f') in 0.026904 seconds 
+  Import took 0.031867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__005.png
+  artifactKey: Guid(c60e579feb6143245a903e9127c0f4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__005.png using Guid(c60e579feb6143245a903e9127c0f4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5521ab00e2a71f6cf58849d73fcc11c') in 0.024742 seconds 
+  Import took 0.029604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_000.png
+  artifactKey: Guid(b7fa03ddfe75c0240ac693e3fc1b6d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_000.png using Guid(b7fa03ddfe75c0240ac693e3fc1b6d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc871fca8e5ebae5183d6d4cd71b864') in 0.027879 seconds 
+  Import took 0.033396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/ninjaadventurenew/png/Jump__008.png
+  artifactKey: Guid(b34a0febb5b80a4459a6f749c7d2510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump__008.png using Guid(b34a0febb5b80a4459a6f749c7d2510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2380bfa8a5939c15cff57f433f9d3264') in 0.025497 seconds 
+  Import took 0.031679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__007.png
+  artifactKey: Guid(be86b52a7848f794fb7c66d17f867292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__007.png using Guid(be86b52a7848f794fb7c66d17f867292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa521f63e6c5562c46cd40c78c41505') in 0.025072 seconds 
+  Import took 0.030677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__006.png
+  artifactKey: Guid(35a211dac49629e4095a7bacf977669d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__006.png using Guid(35a211dac49629e4095a7bacf977669d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7976c40177d7d87fe050324c77c1bc01') in 0.025928 seconds 
+  Import took 0.031485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__001.png
+  artifactKey: Guid(253d8434c99ac1545b4dca818e7ef433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__001.png using Guid(253d8434c99ac1545b4dca818e7ef433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35dc74f2728f5173b2ef1f00b09bc7c') in 0.026202 seconds 
+  Import took 0.032211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__005.png
+  artifactKey: Guid(0564b08ec6432234288b4c04e8d6b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__005.png using Guid(0564b08ec6432234288b4c04e8d6b8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6d99cc2568da3715810bc6643a727f') in 0.029577 seconds 
+  Import took 0.036238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__002.png
+  artifactKey: Guid(588453fafd50f134fb562da03f48d4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__002.png using Guid(588453fafd50f134fb562da03f48d4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c685271f824faa0e4e053a384cfbf61') in 0.028724 seconds 
+  Import took 0.034018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_004.png
+  artifactKey: Guid(567659f5a5399c749bf8786b3ae893c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_004.png using Guid(567659f5a5399c749bf8786b3ae893c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a973af638645d0179777bc8e5dc3f1d5') in 0.026647 seconds 
+  Import took 0.031879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__005.png
+  artifactKey: Guid(9aabae022ec5eaa46887a8286bc4727c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__005.png using Guid(9aabae022ec5eaa46887a8286bc4727c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048ecd615db58319e5155c8f3ba20834') in 0.024004 seconds 
+  Import took 0.029150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__007.png
+  artifactKey: Guid(458d13128d45548468b6b817510e6ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__007.png using Guid(458d13128d45548468b6b817510e6ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00c9e98603dc26a7f62c4371b69dd05') in 0.027479 seconds 
+  Import took 0.032848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__001.png
+  artifactKey: Guid(e1ca7139459a8d7469b59cd51fb37bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__001.png using Guid(e1ca7139459a8d7469b59cd51fb37bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea8cecbb28dbadee27120258a09d44') in 0.028491 seconds 
+  Import took 0.033761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__002.png
+  artifactKey: Guid(16ddbdeafebe1ad4c8a87a97d2b63d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__002.png using Guid(16ddbdeafebe1ad4c8a87a97d2b63d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39571a08a551084b500fb1e98cbe0856') in 0.030062 seconds 
+  Import took 0.035131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__008.png
+  artifactKey: Guid(02e00f761dcad2248913855d3ca60633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__008.png using Guid(02e00f761dcad2248913855d3ca60633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b01e457952bfa306e9810f25595a358') in 0.025952 seconds 
+  Import took 0.031301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/ninjaadventurenew/png/Climb_006.png
+  artifactKey: Guid(ddd9b46e520d46b4b8fc5211986ac576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Climb_006.png using Guid(ddd9b46e520d46b4b8fc5211986ac576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0228b831024628b2c5ff3c5fbf6537d7') in 0.025097 seconds 
+  Import took 0.030911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__003.png
+  artifactKey: Guid(934764b55f6dc0842b6fd92e9333ec35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__003.png using Guid(934764b55f6dc0842b6fd92e9333ec35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2e7c7f586c5861b8c83c14d4a90d13') in 0.027396 seconds 
+  Import took 0.033057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/ninjaadventurenew/png/Dead__002.png
+  artifactKey: Guid(c3f233803d8432e449bdffce1a80e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Dead__002.png using Guid(c3f233803d8432e449bdffce1a80e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea92ce291806f46ec06da0bf91f0dc9') in 0.028238 seconds 
+  Import took 0.033654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__009.png
+  artifactKey: Guid(45de5244e49a9f54abf8a7bbbbcfc9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__009.png using Guid(45de5244e49a9f54abf8a7bbbbcfc9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afea17bc311856c4207b2c4db011891') in 0.027249 seconds 
+  Import took 0.032460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_002.png
+  artifactKey: Guid(618624ecf9605e14f98473c2ab1184af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_002.png using Guid(618624ecf9605e14f98473c2ab1184af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ed17695566679eb5a93c73ed4fee87') in 0.028028 seconds 
+  Import took 0.033155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Attack__004.png
+  artifactKey: Guid(4efdb5a455f68f24f8791f3ce626c8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Attack__004.png using Guid(4efdb5a455f68f24f8791f3ce626c8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0188d531a1019064cce37ee7f2d33c') in 0.030285 seconds 
+  Import took 0.035131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/ninjaadventurenew/png/Attack__006.png
+  artifactKey: Guid(9b54d67ac99361041a33d7f6dab085c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Attack__006.png using Guid(9b54d67ac99361041a33d7f6dab085c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bdcc52a5df6b58e49e2b2260616222') in 0.027810 seconds 
+  Import took 0.032773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/ninjaadventurenew/png/Glide_003.png
+  artifactKey: Guid(efba950e8febdbd4da6d9ef905411fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Glide_003.png using Guid(efba950e8febdbd4da6d9ef905411fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b760c88bf093a9d5702769582ed8239') in 0.028335 seconds 
+  Import took 0.034103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__002.png
+  artifactKey: Guid(17a0e24aa45483f42b12fceaf1948df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__002.png using Guid(17a0e24aa45483f42b12fceaf1948df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca333c270eb6ee62e8f3c2445e691aef') in 0.024756 seconds 
+  Import took 0.030187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000741 seconds.
+  path: Assets/ninjaadventurenew/png/Idle__002.png
+  artifactKey: Guid(17a0e24aa45483f42b12fceaf1948df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Idle__002.png using Guid(17a0e24aa45483f42b12fceaf1948df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca333c270eb6ee62e8f3c2445e691aef') in 0.020643 seconds 
+  Import took 0.026430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.927103 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__006.png
+  artifactKey: Guid(618f7ee7cd8f66542bdcfc5193946fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__006.png using Guid(618f7ee7cd8f66542bdcfc5193946fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d423d1a621c22acb5b71c6a2815a55') in 0.036985 seconds 
+  Import took 0.043234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/ninjaadventurenew/png/Kunai.png
+  artifactKey: Guid(49f68660f840e274c8d4b0be209c044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Kunai.png using Guid(49f68660f840e274c8d4b0be209c044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16efa652099b27930d19ead549e6dc8') in 0.028164 seconds 
+  Import took 0.034119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/ninjaadventurenew/png/Run__000.png
+  artifactKey: Guid(70ae100575183ee40be243cedf261a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__000.png using Guid(70ae100575183ee40be243cedf261a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0586b45d65efdb0652db8dcb5d3167') in 0.028102 seconds 
+  Import took 0.035015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/ninjaadventurenew/png/Run__002.png
+  artifactKey: Guid(15d4c9f8af5b16746bf029d5fe202e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__002.png using Guid(15d4c9f8af5b16746bf029d5fe202e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727b6248256e8409a4332fd70a821d45') in 0.026402 seconds 
+  Import took 0.032314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__004.png
+  artifactKey: Guid(83d978ee6f4b54c448f2a6ad2c19ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__004.png using Guid(83d978ee6f4b54c448f2a6ad2c19ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc31dd221d3f43b5fc733319677ff1ac') in 0.033283 seconds 
+  Import took 0.040717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__005.png
+  artifactKey: Guid(597f8c88994942543a4c5fee315d5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__005.png using Guid(597f8c88994942543a4c5fee315d5463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbca667540557517c357114cf5c83ac3') in 0.036757 seconds 
+  Import took 0.044867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__007.png
+  artifactKey: Guid(e1005f83cec8ec140a7839bf17b977cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__007.png using Guid(e1005f83cec8ec140a7839bf17b977cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a11cdcb6ca39c7563e0a8dcc559fe11') in 0.031208 seconds 
+  Import took 0.039560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__001.png
+  artifactKey: Guid(fef34637f25d44c4aab7b3fec1491aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__001.png using Guid(fef34637f25d44c4aab7b3fec1491aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c0fb46f10ff3831876a03fe8d3ba9c') in 0.034284 seconds 
+  Import took 0.042248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__003.png
+  artifactKey: Guid(0fafb8111d964014abfda764916a6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__003.png using Guid(0fafb8111d964014abfda764916a6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9592ca45eb049fb54b5fa3b07f8d344') in 0.034128 seconds 
+  Import took 0.042709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__004.png
+  artifactKey: Guid(26a7bd5fec5ad5b419889bf48e22ab2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__004.png using Guid(26a7bd5fec5ad5b419889bf48e22ab2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab5f7104499dce322e4dd4d1dced986') in 0.040265 seconds 
+  Import took 0.047161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__002.png
+  artifactKey: Guid(f9610029d2a6c0a46b097afd5e576f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__002.png using Guid(f9610029d2a6c0a46b097afd5e576f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013652a3edf1d197d1afd7d56396ea30') in 0.033554 seconds 
+  Import took 0.040938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__009.png
+  artifactKey: Guid(54991c34cec501e4b93e08372b6f6a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__009.png using Guid(54991c34cec501e4b93e08372b6f6a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26083d1a4b5d2ee89e4c6d5b2c54bd8') in 0.034538 seconds 
+  Import took 0.042133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__000.png
+  artifactKey: Guid(13d2c1a5bc441c342a7af82d7a89b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__000.png using Guid(13d2c1a5bc441c342a7af82d7a89b691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3c8fbb10f8332fd6ee0f6e03de52bf') in 0.037520 seconds 
+  Import took 0.046073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/ninjaadventurenew/png/Run__006.png
+  artifactKey: Guid(680165567e2db824f8264bf138d4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__006.png using Guid(680165567e2db824f8264bf138d4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d8156dc18bcb5461b7c14c4d6e74a8') in 0.031444 seconds 
+  Import took 0.038775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__002.png
+  artifactKey: Guid(879431f1e799b4447932d3727bdd5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__002.png using Guid(879431f1e799b4447932d3727bdd5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fcecd95b5685b5e42d77f60c5dcce5') in 0.031888 seconds 
+  Import took 0.038120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__000.png
+  artifactKey: Guid(56bcf4dceae8c3a4a96dc1604cc853fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__000.png using Guid(56bcf4dceae8c3a4a96dc1604cc853fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9ae450c452e62e681edaf569e0bc93') in 0.030318 seconds 
+  Import took 0.037123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__001.png
+  artifactKey: Guid(084b3fb91b587a941a41c19a0f5f67ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__001.png using Guid(084b3fb91b587a941a41c19a0f5f67ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c708dc8953720165f842e7524ce40a') in 0.029870 seconds 
+  Import took 0.035638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__006.png
+  artifactKey: Guid(cb5c1f53a20810f4787d1773ed82ae2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__006.png using Guid(cb5c1f53a20810f4787d1773ed82ae2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7373d4c457ca522124778aac3d942044') in 0.026958 seconds 
+  Import took 0.032978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__009.png
+  artifactKey: Guid(26e62e69b30b58e4a87a498c1df13103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__009.png using Guid(26e62e69b30b58e4a87a498c1df13103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1384b5c7f3b6f3dd8e7739f6f92ec003') in 0.039072 seconds 
+  Import took 0.048016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000834 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__005.png
+  artifactKey: Guid(a12bfd5f355e43445ad69ded8f1e57fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__005.png using Guid(a12bfd5f355e43445ad69ded8f1e57fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2964ec0b2af78c21335d7b186a5b5b9') in 0.040554 seconds 
+  Import took 0.048978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__008.png
+  artifactKey: Guid(0a78336be03c5be48b50a68799a8d8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__008.png using Guid(0a78336be03c5be48b50a68799a8d8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315a092a43c0cb9e2ed40dc273cb7be1') in 0.028753 seconds 
+  Import took 0.036200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/ninjaadventurenew/png/Run__008.png
+  artifactKey: Guid(8c9fa37e144fb964ab62fab49d5c4fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__008.png using Guid(8c9fa37e144fb964ab62fab49d5c4fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a635f6bd20ab71c84b767f3b9234e037') in 0.026659 seconds 
+  Import took 0.031953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__007.png
+  artifactKey: Guid(9d1895f1ef582e2489304d9cda0b3ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__007.png using Guid(9d1895f1ef582e2489304d9cda0b3ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc9c20afe42d898369c292ee486cb9a') in 0.028160 seconds 
+  Import took 0.033929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/ninjaadventurenew/png/Run__004.png
+  artifactKey: Guid(a28ec911f9c4ff04ebaa56fa27215ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__004.png using Guid(a28ec911f9c4ff04ebaa56fa27215ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b706d9c9c22a8f7d479a6fe79a117735') in 0.028374 seconds 
+  Import took 0.033643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__006.png
+  artifactKey: Guid(618f7ee7cd8f66542bdcfc5193946fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__006.png using Guid(618f7ee7cd8f66542bdcfc5193946fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d423d1a621c22acb5b71c6a2815a55') in 0.023057 seconds 
+  Import took 0.028576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/ninjaadventurenew/png/Jump_Throw__008.png
+  artifactKey: Guid(40e9298b863610242ac02e842b889dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Jump_Throw__008.png using Guid(40e9298b863610242ac02e842b889dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d96ae9a52c9cdd2027b22633ef0a83') in 0.028449 seconds 
+  Import took 0.033488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__006.png
+  artifactKey: Guid(93224e19a697ba5478b62cd40456c474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__006.png using Guid(93224e19a697ba5478b62cd40456c474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2cdb0ae9b36ce7577c6c4b35a3fcb5') in 0.025532 seconds 
+  Import took 0.030988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/ninjaadventurenew/png/Run__001.png
+  artifactKey: Guid(9dd264378048da643811993ed63f6581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__001.png using Guid(9dd264378048da643811993ed63f6581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c49afc6d6738ea9cbe847db80f90e67') in 0.025020 seconds 
+  Import took 0.030731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__007.png
+  artifactKey: Guid(62df5d68239f19f499fe5ba3e8e023c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__007.png using Guid(62df5d68239f19f499fe5ba3e8e023c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a930fd9141d190a8adbb1c517aeda384') in 0.023672 seconds 
+  Import took 0.029583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/ninjaadventurenew/png/Run__003.png
+  artifactKey: Guid(e8ff36988e112464c89e7f542338b24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__003.png using Guid(e8ff36988e112464c89e7f542338b24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7903f44670ce099e9be3e22edff309b0') in 0.025451 seconds 
+  Import took 0.030957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__003.png
+  artifactKey: Guid(94975b5177bb5064c8a481bcd8a11840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__003.png using Guid(94975b5177bb5064c8a481bcd8a11840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f780810bdc7302907aa42c8191ff53') in 0.026106 seconds 
+  Import took 0.032265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/ninjaadventurenew/png/Run__007.png
+  artifactKey: Guid(70b82483e262eba4b995e9c62039181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__007.png using Guid(70b82483e262eba4b995e9c62039181c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00827bb4b4bd005b4dd6eb6543b19a3') in 0.026285 seconds 
+  Import took 0.031942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/ninjaadventurenew/png/Throw__009.png
+  artifactKey: Guid(c07218917165b504c8c50bd1f96114e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Throw__009.png using Guid(c07218917165b504c8c50bd1f96114e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59edb2de3466698e003cd33a08c804e7') in 0.025794 seconds 
+  Import took 0.030980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/ninjaadventurenew/png/Run__009.png
+  artifactKey: Guid(bc3a915640afe55429b13c6af6ddcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__009.png using Guid(bc3a915640afe55429b13c6af6ddcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1212f995b2bbbbfadeec124d25e9eb4') in 0.024198 seconds 
+  Import took 0.029082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/ninjaadventurenew/png/Slide__008.png
+  artifactKey: Guid(13d67949a0144bc4ea181549d5dbab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Slide__008.png using Guid(13d67949a0144bc4ea181549d5dbab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ec54c57008dccff71973d243ab3a02') in 0.029701 seconds 
+  Import took 0.034999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000720 seconds.
+  path: Assets/ninjaadventurenew/png/Run__005.png
+  artifactKey: Guid(5ce3bbdc0f1c27647b55434d5cd4aa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ninjaadventurenew/png/Run__005.png using Guid(5ce3bbdc0f1c27647b55434d5cd4aa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6435a56083a8a7c1ded6e572ec78c0') in 0.025542 seconds 
+  Import took 0.030383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.312111 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.011919 seconds 
+  Import took 0.017827 seconds .
+
