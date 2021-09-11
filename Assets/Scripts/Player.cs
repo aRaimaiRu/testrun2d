@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public float sppedX =1.0f;
     public float jumpForce = 10.0f;
     public LayerMask groundLayer;
+    public int jumpCount = 2;
     readonly int groundParameter = Animator.StringToHash("ground");
     readonly int jumpParameter = Animator.StringToHash("Jump");
     readonly int deadParameter = Animator.StringToHash("dead");
@@ -42,20 +43,25 @@ public class Player : MonoBehaviour
       transform.position += new Vector3(1,0,0)*sppedX*Time.deltaTime;
     }
     public void jump(){
-      rb2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
+      if(animator.GetBool(groundParameter) || jumpCount >0){
+        rb2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
+        jumpCount -=1;
+      }
+      
     }
 
-    private void OnCollisionEnter2D(Collision2D other) {
-      if(other.gameObject.layer == groundLayer){
-        animator.SetBool(groundParameter,true);
-      }
+    // private void OnCollisionEnter2D(Collision2D other) {
+    //   if(other.gameObject.layer == groundLayer){
+    //     animator.SetBool(groundParameter,true);
+    //   }
     
-    }
+    // }
 
     private void checkforGround(){
       Bounds boxBounds = boxCollider2D.bounds;
       Vector2 centerBottom = new Vector2(boxBounds.center.x, boxBounds.center.y - boxBounds.extents.y);
       if(Physics2D.Raycast(centerBottom,Vector2.down,0.1f,groundLayer)){
+        jumpCount =2;
         animator.SetBool(groundParameter,true);
       }else{
         animator.SetBool(groundParameter,false);
