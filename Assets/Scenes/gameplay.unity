@@ -622,6 +622,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sppedX: 1
   jumpForce: 50
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!61 &846925993
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -725,7 +728,7 @@ GameObject:
   - component: {fileID: 1304700336}
   - component: {fileID: 1304700335}
   - component: {fileID: 1304700337}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
