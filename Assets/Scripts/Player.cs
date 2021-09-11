@@ -73,6 +73,10 @@ public class Player : MonoBehaviour
       
     }
 
+    public void testLog(){
+      Debug.Log("Test Log");
+    }
+
 
 
 
