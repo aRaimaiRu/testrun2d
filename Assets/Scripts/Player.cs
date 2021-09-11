@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
   private SpriteRenderer sr;
   private Rigidbody2D rb2D;
   private Animator animator;
-  public float sppedX =1.0f;
+  public float speedX =1.0f;
   public float jumpForce = 10.0f;
   public LayerMask groundLayer;
   public int jumpCount = 2;
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
   }
 
   void run(){
-    transform.position += new Vector3(1,0,0)*sppedX*Time.deltaTime;
+    transform.position += new Vector3(1,0,0)*speedX*Time.deltaTime;
   }
   public void jump(){
     if(animator.GetBool(groundParameter) || jumpCount >0){
