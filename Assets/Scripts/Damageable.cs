@@ -35,8 +35,11 @@ public class Damageable : MonoBehaviour {
                 DisableInvulnerable();
         }
 
-        private void DisableInvulnerable(){
+        public void DisableInvulnerable(){
                 Invulnerable=false;
+        }
+        public void EnableInvulnerability(){
+                Invulnerable=true;
         }
 
         public void TakeDamage(Damager damager){
