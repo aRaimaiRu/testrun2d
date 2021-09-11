@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
     readonly int jumpParameter = Animator.StringToHash("Jump");
     readonly int deadParameter = Animator.StringToHash("dead");
     readonly int slideParameter = Animator.StringToHash("slide");
-    readonly int velYParameter = Animator.StringToHash("velY");
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +31,6 @@ public class Player : MonoBehaviour
     void Update()
     {
       checkforGround();
-      setAnimation();
     }
     private void FixedUpdate() {
       run();
@@ -64,9 +62,20 @@ public class Player : MonoBehaviour
       }
 
     }
-    private void setAnimation(){
-      animator.SetFloat(velYParameter,rb2D.velocity.y);
+
+    public void slide(){
+      animator.SetBool(slideParameter,true);
+      
     }
+    
+    public void noslide(){
+      animator.SetBool(slideParameter,false);
+      
+    }
+
+
+
+
 
 
 
