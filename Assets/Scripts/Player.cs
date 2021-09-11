@@ -14,10 +14,13 @@ public class Player : MonoBehaviour
     public float jumpForce = 10.0f;
     public LayerMask groundLayer;
     public int jumpCount = 2;
+    public float flickeringDuration =0.25f;
     readonly int groundParameter = Animator.StringToHash("ground");
     readonly int jumpParameter = Animator.StringToHash("Jump");
     readonly int deadParameter = Animator.StringToHash("dead");
     readonly int slideParameter = Animator.StringToHash("slide");
+    readonly int hurtParameter = Animator.StringToHash("hurt");
+    protected WaitForSeconds flickeringWait;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +28,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         rb2D = gameObject.GetComponent<Rigidbody2D>();
         animator.SetBool(groundParameter,true);
+        flickeringWait = new WaitForSeconds(flickeringDuration);
 
     }
 
@@ -70,17 +74,26 @@ public class Player : MonoBehaviour
     }
 
     public void slide(){
-      animator.SetBool(slideParameter,true);
+      if(animator.GetBool(groundParameter)){
+        this.transform.localScale = new Vector3(this.transform.localScale.x*1,this.transform.localScale.y*0.7f,this.transform.localScale.z*1);
+        boxCollider2D.size=  new Vector3(boxCollider2D.size.x*1,boxCollider2D.size.y*0.7f);
+        animator.SetBool(slideParameter,true);
+      }
       
     }
     
     public void noslide(){
+      if(animator.GetBool(slideParameter)){
+      this.transform.localScale = new Vector3(this.transform.localScale.x*1,this.transform.localScale.y/0.7f,this.transform.localScale.z*1);
+      boxCollider2D.size=  new Vector3(boxCollider2D.size.x*1,boxCollider2D.size.y/0.7f);
       animator.SetBool(slideParameter,false);
+      }
       
     }
 
-    public void testLog(){
-      Debug.Log("Test Log");
+    public void OnHurt(Damager damager, Damageable damageable){
+      // animator.SetBool()
+
     }
 
 

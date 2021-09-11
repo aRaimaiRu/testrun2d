@@ -27,7 +27,7 @@ public class Damageable : MonoBehaviour {
         public HealEvent OnGainHealth;
 
         private bool Invulnerable;
-
+        public float invulnerabilityDuration=3;
 
         private void OnEnable() {
                 currentHealth = startingHealth;
