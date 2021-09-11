@@ -40,7 +40,6 @@ public class Damageable : MonoBehaviour {
         }
 
         public void TakeDamage(Damager damager){
-                Debug.Log("Take DMG");
                 if(Invulnerable || currentHealth <= 0){
                         return;
                 }
