@@ -154,8 +154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  offset: {x: -0.03, y: 0}
-  size: {x: 1, y: 1}
+  offset: {x: 0.007446289, y: 0.0014679432}
+  size: {x: 1.0148926, y: 1.0029359}
   hittableLayers:
     serializedVersion: 2
     m_Bits: 1
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 4
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -964,7 +964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed6194ccc5562be4d836fba87c80dccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sppedX: 8
+  speedX: 1
   jumpForce: 100
   groundLayer:
     serializedVersion: 2
