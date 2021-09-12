@@ -25,6 +25,7 @@ public class Damageable : MonoBehaviour {
         public HealthEvent OnHealthSet;
         public DamageEvent OnTakeDamage;
         public HealEvent OnGainHealth;
+        public UnityEvent OnDeath;
 
         private bool Invulnerable;
         public float invulnerabilityDuration=3;
@@ -50,6 +51,7 @@ public class Damageable : MonoBehaviour {
                 if(currentHealth >maxHealth){
                         currentHealth = maxHealth;
                 }else if(currentHealth<0) {
+                        OnDeath.Invoke();
                         currentHealth = 0;
                 }
                 OnTakeDamage.Invoke(damager,this);

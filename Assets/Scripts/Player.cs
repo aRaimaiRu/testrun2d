@@ -97,9 +97,10 @@ public class Player : MonoBehaviour
     animator.SetTrigger(hurtParameter);
     damageable.EnableInvulnerability();
     StartCoroutine(Flicker(damageable));
+  }
 
-
-
+  public void OnDeath(){
+    animator.SetTrigger(deadParameter);
   }
   IEnumerator Flicker(Damageable damageable){
       float timer = 0f;
