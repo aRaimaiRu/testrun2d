@@ -15,15 +15,14 @@ public class ScaleItem : MonoBehaviour {
     IEnumerator CallWhenPickup(GameObject player){
         //playsound ,Effect
         if(pickupEffect){
-            Instantiate(pickupEffect,transform.position,transform.rotation);
-
+        GameObject effect = Instantiate(pickupEffect,transform.position,transform.rotation) as GameObject;
+        
         }
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
         // do something
         player.transform.localScale =new Vector3(player.transform.localScale.x*1.5f,player.transform.localScale.y*1.5f,player.transform.localScale.z*1.5f);
         player.GetComponent<Damageable>().EnableInvulnerability();
-
         yield return new WaitForSeconds(duration);
 
         player.GetComponent<Damageable>().DisableInvulnerable();
