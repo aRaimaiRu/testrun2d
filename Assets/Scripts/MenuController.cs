@@ -30,8 +30,8 @@ public class MenuController : MonoBehaviour
         GameplayUI.SetActive(false);
     }
     public void Win(){
-        WinMenu.SetActive(true);
         PauseMenu.SetActive(false);
         GameplayUI.SetActive(false);
+        WinMenu.SetActive(true);
     }
 }
