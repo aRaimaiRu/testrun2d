@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Audio;
 // // PlayerScript requires the GameObject to have a Rigidbody component
 // [RequireComponent(typeof(Rigidbody))]
 // [RequireComponent(typeof(Animator))]
@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
   public LayerMask groundLayer;
   public int jumpCount = 2;
   public float flickeringDuration =0.25f;
+  public AudioClip jumpSFX;
   readonly int groundParameter = Animator.StringToHash("ground");
   readonly int jumpParameter = Animator.StringToHash("Jump");
   readonly int deadParameter = Animator.StringToHash("dead");
@@ -29,7 +30,7 @@ public class Player : MonoBehaviour
       boxCollider2D = GetComponent<BoxCollider2D>();
       animator = GetComponent<Animator>();
       rb2D = gameObject.GetComponent<Rigidbody2D>();
-      animator.SetBool(groundParameter,true);
+      
       flickeringWait = new WaitForSeconds(flickeringDuration);
 
   }
@@ -50,6 +51,7 @@ public class Player : MonoBehaviour
   }
   public void jump(){
     if(animator.GetBool(groundParameter) || jumpCount >0){
+      FindObjectOfType<AudioManager>().Play("Jump");
       rb2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
       jumpCount -=1;
     }

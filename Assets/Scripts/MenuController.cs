@@ -29,12 +29,12 @@ public class MenuController : MonoBehaviour
         GameplayUI.SetActive(false);
     }
     public void Win(){
-<<<<<<< HEAD
         PauseMenu.SetActive(false);
-=======
-        WinMenu.SetActive(true);
->>>>>>> gameMenu
         GameplayUI.SetActive(false);
         WinMenu.SetActive(true);
+    }
+    public void Mainmenu(){
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Gamemenu");
     }
 }
