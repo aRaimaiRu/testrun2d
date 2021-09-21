@@ -11,4 +11,10 @@ public class Score : MonoBehaviour {
     void Update() {
         ScoreText.text = ((int)score).ToString();
     }
+    public void OnWin(){
+        if(score >PlayerPrefs.GetFloat("Highscore")){
+            PlayerPrefs.SetFloat("Highscore",score);
+        }
+
+    }
 }

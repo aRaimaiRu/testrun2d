@@ -24,9 +24,7 @@ public class WinScreen : MonoBehaviour
         BackgroundImg.color = Color.Lerp(new Color(0,0,0,0),Color.black,transition);
         scoreText.text = "Score:"+((int) sc.score).ToString();
     }
-    // public void ToggleEndScore(){
-    //     gameObject.SetActive(true);
-    //     scoreText.text = "Score:"+((int) sc.score).ToString();
-    //     isShowned = true;
-    // }
+    private void OnEnable() {
+        
+    }
 }
