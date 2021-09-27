@@ -3,29 +3,90 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // // PlayerScript requires the GameObject to have a Rigidbody component
-[RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(Animator))]
+// [RequireComponent(typeof(Rigidbody))]
+// [RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {
+  private BoxCollider2D boxCollider2D;
+  private SpriteRenderer sr;
+  private Rigidbody2D rb2D;
+  private Animator animator;
   public float speedX =1.0f;
-
+  public float jumpForce = 10.0f;
+  public LayerMask groundLayer;
+  public int jumpCount = 2;
+  
+  readonly int groundParameter = Animator.StringToHash("ground");//
+  readonly int jumpParameter = Animator.StringToHash("Jump");
+  readonly int deadParameter = Animator.StringToHash("dead");
+  readonly int slideParameter = Animator.StringToHash("slide");
+  readonly int hurtParameter = Animator.StringToHash("hurt");
+ 
   // Start is called before the first frame update
   void Start()
   {
+      sr = GetComponent<SpriteRenderer>();
+      boxCollider2D = GetComponent<BoxCollider2D>();
+      animator = GetComponent<Animator>();
+      rb2D = gameObject.GetComponent<Rigidbody2D>();
+      animator.SetBool(groundParameter,true);
 
   }
 
     // Update is called once per frame
   void Update()
   {
+    checkforGround();//เช็คว่าขาติดพื้นมั้ย
+  }
+  private void FixedUpdate() {//ถูกเรียกเป็นช่วงเวลาที่คงที่
+    run();
+    
+    
+  }
+
+  void run(){
+    transform.position += new Vector3(1,0,0)*speedX*Time.deltaTime;//ให้วิ่งไปข้างหน้า
+  }
+  public void jump(){
+    if(animator.GetBool(groundParameter) || jumpCount >0){//
+      rb2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
+      jumpCount -=1;
+    }
+    
+  }
+
+
+  private void checkforGround(){
+    Bounds boxBounds = boxCollider2D.bounds;
+    Vector2 centerBottom = new Vector2(boxBounds.center.x, boxBounds.center.y - boxBounds.extents.y);
+    if(Physics2D.Raycast(centerBottom,Vector2.down,0.1f,groundLayer)){
+      jumpCount =2;
+      animator.SetBool(groundParameter,true);
+    }else{
+      animator.SetBool(groundParameter,false);
+    }
 
   }
-  private void FixedUpdate() {
-    run();
+
+  public void slide(){
+    if(animator.GetBool(groundParameter)){
+      this.transform.localScale = new Vector3(this.transform.localScale.x*1,this.transform.localScale.y*0.7f,this.transform.localScale.z*1);
+      boxCollider2D.size=  new Vector3(boxCollider2D.size.x*1,boxCollider2D.size.y*0.7f);
+      animator.SetBool(slideParameter,true);
+    }
+    
   }
-  void run(){
-    transform.position += new Vector3(1,0,0)*speedX*Time.deltaTime;
+  
+  public void noslide(){
+    if(animator.GetBool(slideParameter)){
+      this.transform.localScale = new Vector3(this.transform.localScale.x*1,this.transform.localScale.y/0.7f,this.transform.localScale.z*1);
+      boxCollider2D.size=  new Vector3(boxCollider2D.size.x*1,boxCollider2D.size.y/0.7f);
+      animator.SetBool(slideParameter,false);
+    }
+    
   }
+
+ 
 
 }
 
