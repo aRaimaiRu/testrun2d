@@ -12,8 +12,8 @@ public class Score : MonoBehaviour {
         ScoreText.text = ((int)score).ToString();
     }
     public void OnWin(){
-        if(score >PlayerPrefs.GetFloat("Highscore")){
-            PlayerPrefs.SetFloat("Highscore",score);
+        if(score >PlayerPrefs.GetFloat("Highscore")){//read
+            PlayerPrefs.SetFloat("Highscore",score);//write
         }
 
     }
