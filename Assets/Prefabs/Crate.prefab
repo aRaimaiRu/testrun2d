@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 615820883805039423}
   - component: {fileID: 615820883805039416}
+  - component: {fileID: 1046342879662259373}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -24,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615820883805039417}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.3011999, y: -3.5758693, z: 7.362123}
   m_LocalScale: {x: 1.4754062, y: 9.531279, z: 1}
   m_Children: []
@@ -82,3 +83,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1046342879662259373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615820883805039417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf93526f5a2c66142bae52179635d95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  offset: {x: 0, y: 0.0068458766}
+  size: {x: 1, y: 0.760394}
+  hittableLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  OnDamageableHit:
+    m_PersistentCalls:
+      m_Calls: []

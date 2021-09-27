@@ -16,13 +16,13 @@ public class Player : MonoBehaviour
   public LayerMask groundLayer;
   public int jumpCount = 2;
   private int currentJumpCount;
-  
+  public float flickeringDuration =0.25f;
   readonly int groundParameter = Animator.StringToHash("ground");//
   readonly int jumpParameter = Animator.StringToHash("Jump");
   readonly int deadParameter = Animator.StringToHash("dead");
   readonly int slideParameter = Animator.StringToHash("slide");
   readonly int hurtParameter = Animator.StringToHash("hurt");
- 
+  protected WaitForSeconds flickeringWait;
   // Start is called before the first frame update
   void Start()
   {
@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
       rb2D = gameObject.GetComponent<Rigidbody2D>();
       animator.SetBool(groundParameter,true);
       currentJumpCount=jumpCount;
-
+      flickeringWait = new WaitForSeconds(flickeringDuration);
   }
 
     // Update is called once per frame
@@ -87,6 +87,30 @@ public class Player : MonoBehaviour
     }
     
   }
+
+  public void OnHurt(Damager damager, Damageable damageable){
+    animator.SetTrigger(hurtParameter);
+    damageable.EnableInvulnerability();
+    StartCoroutine(Flicker(damageable));
+  }
+
+  public void OnDeath(){
+    animator.SetTrigger(deadParameter);
+  }
+  IEnumerator Flicker(Damageable damageable){
+      float timer = 0f;
+
+      while (timer < damageable.invulnerabilityDuration)
+      {
+          sr.enabled = !sr.enabled;
+          yield return flickeringWait;
+          timer += flickeringDuration;
+      }
+
+      sr.enabled = true;
+  }
+
+  
 
  
 

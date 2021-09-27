@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7743070293090939159}
   - component: {fileID: 7302998684566035192}
+  - component: {fileID: 805946665}
   m_Layer: 0
   m_Name: Barrel (1)
   m_TagString: Untagged
@@ -82,3 +83,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &805946665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946502286075704547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf93526f5a2c66142bae52179635d95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  offset: {x: 0.040401697, y: -0.030301392}
+  size: {x: 1.5252228, y: 2.2726545}
+  hittableLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  OnDamageableHit:
+    m_PersistentCalls:
+      m_Calls: []
