@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
     transform.position += new Vector3(1,0,0)*speedX*Time.deltaTime;//ให้วิ่งไปข้างหน้า
   }
   public void jump(){
-    if(animator.GetBool(groundParameter) || currentJumpCount >=0){//
+    if(animator.GetBool(groundParameter) || currentJumpCount >0){//
       rb2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
       currentJumpCount-=1;
     }
