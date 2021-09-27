@@ -12,8 +12,12 @@ public class MenuController : MonoBehaviour
         GameplayUI.SetActive(false);
     }
     public void Death(){
-        Time.timeScale = 0f;
         WinMenu.SetActive(false);
         GameplayUI.SetActive(false);
+        StartCoroutine("Wait");
+    }
+    IEnumerator Wait(){
+        yield return new WaitForSeconds(0.3f);
+        Time.timeScale = 0f;
     }
 }
