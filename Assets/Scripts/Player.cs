@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
   public float jumpForce = 10.0f;
   public LayerMask groundLayer;
   public int jumpCount = 2;
+  private int currentJumpCount;
   
   readonly int groundParameter = Animator.StringToHash("ground");//
   readonly int jumpParameter = Animator.StringToHash("Jump");
@@ -30,6 +31,7 @@ public class Player : MonoBehaviour
       animator = GetComponent<Animator>();
       rb2D = gameObject.GetComponent<Rigidbody2D>();
       animator.SetBool(groundParameter,true);
+      currentJumpCount=jumpCount;
 
   }
 
@@ -50,7 +52,7 @@ public class Player : MonoBehaviour
   public void jump(){
     if(animator.GetBool(groundParameter) || jumpCount >0){//
       rb2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
-      jumpCount -=1;
+      currentJumpCount-=1;
     }
     
   }
@@ -60,7 +62,7 @@ public class Player : MonoBehaviour
     Bounds boxBounds = boxCollider2D.bounds;
     Vector2 centerBottom = new Vector2(boxBounds.center.x, boxBounds.center.y - boxBounds.extents.y);
     if(Physics2D.Raycast(centerBottom,Vector2.down,0.1f,groundLayer)){
-      jumpCount =2;
+      currentJumpCount=jumpCount;
       animator.SetBool(groundParameter,true);
     }else{
       animator.SetBool(groundParameter,false);
