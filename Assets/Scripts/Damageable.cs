@@ -50,11 +50,13 @@ public class Damageable : MonoBehaviour {
                 currentHealth -= damager.damage;
                 if(currentHealth >maxHealth){
                         currentHealth = maxHealth;
+                        OnTakeDamage.Invoke(damager,this);
                 }else if(currentHealth<0) {
                         OnDeath.Invoke();
                         currentHealth = 0;
+                }else{
+                   OnTakeDamage.Invoke(damager,this);
                 }
-                OnTakeDamage.Invoke(damager,this);
                 OnHealthSet.Invoke(this);
         }
 
