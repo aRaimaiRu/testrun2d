@@ -106,7 +106,7 @@ public class Player : MonoBehaviour
           yield return flickeringWait;
           timer += flickeringDuration;
       }
-
+      damageable.DisableInvulnerable();
       sr.enabled = true;
   }
 
