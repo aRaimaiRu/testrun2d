@@ -2437,7 +2437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390921148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 65.3259, y: 0.36, z: 0}
+  m_LocalPosition: {x: 66.78, y: 0.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2457,7 +2457,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnPlayerEnter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1017805280}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: Win
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &1390921152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4939,7 +4951,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 805946665, guid: 4d2a826f7b00066429fb76b19276ca9c, type: 3}
       propertyPath: damage
-      value: 1
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6946502286075704547, guid: 4d2a826f7b00066429fb76b19276ca9c, type: 3}
       propertyPath: m_Name
@@ -4955,7 +4967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7743070293090939159, guid: 4d2a826f7b00066429fb76b19276ca9c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.92
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 7743070293090939159, guid: 4d2a826f7b00066429fb76b19276ca9c, type: 3}
       propertyPath: m_LocalPosition.z
