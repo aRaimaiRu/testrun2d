@@ -13,7 +13,8 @@ public class WinScreen : MonoBehaviour
     private float transition = 0.0f;
     void Start()
     {
-        gameObject.SetActive(false);
+        // if use setActive false need to set gameObject to Active in unity
+        // gameObject.SetActive(false);       
     }
 
     // Update is called once per frame
