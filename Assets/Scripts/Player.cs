@@ -51,6 +51,7 @@ public class Player : MonoBehaviour
   }
   public void jump(){
     if(animator.GetBool(groundParameter) || currentJumpCount >0){//
+      FindObjectOfType<AudioManager>().Play("Jump");
       rb2D.AddForce(new Vector2(0,jumpForce),ForceMode2D.Impulse);
       currentJumpCount-=1;
     }

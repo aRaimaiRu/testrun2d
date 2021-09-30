@@ -17,4 +17,9 @@ public class Score : MonoBehaviour {
             Destroy(other.gameObject);
         }
     }
+    public void OnWin(){ 
+        if(score >PlayerPrefs.GetFloat("Highscore")){  //read 
+        PlayerPrefs.SetFloat("Highscore",score);	//write 
+ 	    }
+    }
 }
