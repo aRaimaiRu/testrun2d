@@ -41,6 +41,66 @@ Tilemap:
   m_GameObject: {fileID: 6372582518543369041}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: -2, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 5
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 6
+      m_TileSpriteIndex: 6
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 4, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -1, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -51,15 +111,53 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741826
+  - first: {x: 0, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 269963315538ae14fab84bfcdba81715, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 7e22f9965464d90478c7cc1208bc7bfb, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ed1e973d65b77b549b318f2875e771d1, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: edb184254b17f0a4fb4eb84883f8f202, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 79024b2534a97da4c89d314dd1006da2, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 40c46c81ab1ff5946bbd37e41a85f40f, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 31a7ffaca8919194c932fde74407e6f1, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b1858da46e4e50e46944cecd9fa36625, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 23a1e8aea7f077a429341749fbb52354, type: 3}
-  m_TileMatrixArray:
   - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 005ed943a89e78548a91c10baf9a0550, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: d8d56c2cdf000704b93b4415b0be050c, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: d706f50154fb0f04e9b97fe3ed847d91, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 64d0b65430b258341aa1d18438962181, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: abed5ba0707d08b4eba547dc27720942, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: fc9f6d41703ee6c448721ce14c3d1d33, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: a9961a0a0d7b12347be9e4b78ca52e66, type: 3}
+  m_TileMatrixArray:
+  - m_RefCount: 8
     m_Data:
       e00: 1
       e01: 0
@@ -78,13 +176,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 1
+  - m_RefCount: 8
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -1, y: -1, z: 0}
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Origin: {x: -2, y: -3, z: 0}
+  m_Size: {x: 7, y: 3, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -145,7 +243,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.13999999, y: 0.13999999, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -192,11 +290,11 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7688040652940824708}
   m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellSize: {x: 1.28, y: 1.28, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!114 &4741276028073492737
+--- !u!114 &6401291767321248604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
