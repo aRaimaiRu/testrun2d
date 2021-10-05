@@ -7,6 +7,7 @@ public class LoadScene : MonoBehaviour
 {
     public void LoadGame(string scenename){
         SceneManager.LoadScene(scenename);
+        Time.timeScale = 1f;
     }
     public void ExitGame(){
         Debug.Log("Exit Game");
