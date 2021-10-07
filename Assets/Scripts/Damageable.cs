@@ -34,7 +34,7 @@ public class Damageable : MonoBehaviour {
                 currentHealth -= damager.damage;
                 if(currentHealth >maxHealth){
                         currentHealth = maxHealth;
-                }else if(currentHealth<0) {
+                }else if(currentHealth<=0) {
                         OnDeath.Invoke();
                         currentHealth = 0;
                 }
